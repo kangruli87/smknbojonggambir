@@ -52,7 +52,7 @@
         <ul class="navbar-list">
           <li class="navbar-item"><a href="#home" class="navbar-link" data-nav-link>Beranda</a></li>
           <li class="navbar-item"><a href="#about" class="navbar-link" data-nav-link>Tentang Kami</a></li>
-          <li class="navbar-item"><a href="#courses" class="navbar-link" data-nav-link>Jurusan</a></li>
+          <li class="navbar-item"><a href="#majors" class="navbar-link" data-nav-link>Jurusan</a></li>
           <li class="navbar-item"><a href="#blog" class="navbar-link" data-nav-link>Berita</a></li>
           <li class="navbar-item"><a href="#" class="navbar-link" data-nav-link>Kontak</a></li>
         </ul>
@@ -62,7 +62,6 @@
         <button class="header-action-btn" aria-label="toggle search" title="Cari">
           <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
         </button>
-        <!-- Tombol keranjang dihapus -->
         <a href="#" class="btn has-before">
           <span class="span">Daftar Sekarang</span>
           <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -102,29 +101,6 @@
         </div>
       </section>
 
-      <!-- CATEGORY -->
-      <section class="section category" aria-label="category">
-        <div class="container">
-          <p class="section-subtitle">Jurusan</p>
-          <h2 class="h2 section-title">Pelajari <span class="span">Keterampilan</span> di SMK Bojonggambir</h2>
-          <p class="section-text">Pilih jurusan yang sesuai dengan minat dan bakat Anda.</p>
-          <ul class="grid-list">
-            <li><div class="category-card" style="--color: 170, 75%, 41%">
-              <div class="card-icon"><img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy" alt="Agribisnis Pengolahan Hasil Pertanian" class="img"></div>
-              <h3 class="h3"><a href="#" class="card-title">Agribisnis Pengolahan Hasil Pertanian (APHP)</a></h3>
-              <p class="card-text">Kuasai pengolahan hasil pertanian dan teknologi pangan.</p>
-              <span class="card-badge">8 Kelas</span>
-            </div></li>
-            <li><div class="category-card" style="--color: 351, 83%, 61%">
-              <div class="card-icon"><img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy" alt="Desain Komunikasi Visual" class="img"></div>
-              <h3 class="h3"><a href="#" class="card-title">Desain Komunikasi Visual (DKV)</a></h3>
-              <p class="card-text">Kembangkan kreativitas dalam desain grafis dan komunikasi visual.</p>
-              <span class="card-badge">7 Kelas</span>
-            </div></li>
-          </ul>
-        </div>
-      </section>
-
       <!-- ABOUT -->
       <section class="section about" id="about" aria-label="about">
         <div class="container">
@@ -150,41 +126,94 @@
         </div>
       </section>
 
-      <!-- COURSE -->
-      <section class="section course" id="courses" aria-label="course">
+      <!-- JURUSAN UTAMA (DITENGAH) -->
+      <section class="section majors" id="majors" aria-label="majors">
         <div class="container">
-          <p class="section-subtitle">Jurusan Populer</p>
-          <h2 class="h2 section-title">Pilih Jurusan untuk Mulai Belajar</h2>
+          <p class="section-subtitle">Jurusan Unggulan</p>
+          <h2 class="h2 section-title">Pilih <span class="span">Jurusan Anda</span> di SMK Bojonggambir</h2>
+          <p class="section-text">Jelajahi jurusan yang dirancang untuk mengembangkan keterampilan profesional Anda.</p>
           <ul class="grid-list">
-            <li><div class="course-card">
-              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
-                <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy" alt="Agribisnis Pengolahan Hasil Pertanian" class="img-cover">
-              </figure>
-              <div class="abs-badge"><ion-icon name="time-outline" aria-hidden="true"></ion-icon><span class="span">3 Tahun</span></div>
-              <div class="card-content">
-                <span class="badge">Pemula</span>
-                <h3 class="h3"><a href="#" class="card-title">Agribisnis Pengolahan Hasil Pertanian (APHP)</a></h3>
-                <div class="wrapper"><div class="rating-wrapper"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div><p class="rating-text">(4.8/50 Rating)</p></div>
-                <data class="price" value="0">Gratis</data>
-                <ul class="card-meta-list"><li class="card-meta-item"><ion-icon name="library-outline" aria-hidden="true"></ion-icon><span class="span">10 Mata Pelajaran</span></li><li class="card-meta-item"><ion-icon name="people-outline" aria-hidden="true"></ion-icon><span class="span">50 Siswa</span></li></ul>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy" alt="Agribisnis Pengolahan Hasil Pertanian" class="img-cover">
+                </figure>
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">3 Tahun</span>
+                </div>
+                <div class="card-content">
+                  <span class="badge">Pemula</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Agribisnis Pengolahan Hasil Pertanian (APHP)</a>
+                  </h3>
+                  <p class="card-text">Kuasai pengolahan hasil pertanian dan teknologi pangan untuk masa depan agraris.</p>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="rating-text">(4.8/50 Rating)</p>
+                  </div>
+                  <data class="price" value="0">Gratis</data>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 Mata Pelajaran</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">50 Siswa</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div></li>
-            <li><div class="course-card">
-              <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
-                <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy" alt="Desain Komunikasi Visual" class="img-cover">
-              </figure>
-              <div class="abs-badge"><ion-icon name="time-outline" aria-hidden="true"></ion-icon><span class="span">3 Tahun</span></div>
-              <div class="card-content">
-                <span class="badge">Menengah</span>
-                <h3 class="h3"><a href="#" class="card-title">Desain Komunikasi Visual (DKV)</a></h3>
-                <div class="wrapper"><div class="rating-wrapper"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div><p class="rating-text">(4.6/40 Rating)</p></div>
-                <data class="price" value="0">Gratis</data>
-                <ul class="card-meta-list"><li class="card-meta-item"><ion-icon name="library-outline" aria-hidden="true"></ion-icon><span class="span">8 Mata Pelajaran</span></li><li class="card-meta-item"><ion-icon name="people-outline" aria-hidden="true"></ion-icon><span class="span">40 Siswa</span></li></ul>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy" alt="Desain Komunikasi Visual" class="img-cover">
+                </figure>
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">3 Tahun</span>
+                </div>
+                <div class="card-content">
+                  <span class="badge">Menengah</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Desain Komunikasi Visual (DKV)</a>
+                  </h3>
+                  <p class="card-text">Kembangkan kreativitas dalam desain grafis dan komunikasi visual modern.</p>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="rating-text">(4.6/40 Rating)</p>
+                  </div>
+                  <data class="price" value="0">Gratis</data>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">8 Mata Pelajaran</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">40 Siswa</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div></li>
+            </li>
           </ul>
           <a href="#" class="btn has-before">
-            <span class="span">Lihat Semua Jurusan</span>
+            <span class="span">Lihat Detail Jurusan</span>
             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
           </a>
         </div>
